@@ -13,7 +13,7 @@ export function ImageGallery() {
           <img
             src={image.src}
             alt={image.alt}
-            className="h-[150px] w-[100px] object-cover transition-transform duration-500 group-hover:scale-110"
+            className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
             loading="lazy"
           />
         </div>
